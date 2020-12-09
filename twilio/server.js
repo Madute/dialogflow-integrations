@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const projectId = 'pandacchatbot-wite';
 const phoneNumber = "+16163263061";
 const accountSid = 'AC7258b0279185672e9b44948ac8f21c22';
-const authToken = 'c9e8550330ddd5620f6e8b7501675f92';
+const authToken = 'c06ad9ef5bbbb83e64afefaef35a4f7bb';
 
 const client = require('twilio')(accountSid, authToken);
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
